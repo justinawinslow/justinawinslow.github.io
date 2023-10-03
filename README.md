@@ -1,12 +1,2 @@
-# Justin Winslow
-## Software Engineer at BetterCloud
-
-<p align="center">
-    <img src="./images/profilePicture.JPG" width="200" height="300" alt="Justin Winslow Profile Picture">
-</p>
-
-This is a my software engineer protfolio; I hope this works
-
-# Experience
-
-# Projects
+# Justin Winslow Software Engineer Personnal Website
+Hello, This is my software engineering portofio. I am excited to be able to share my professional experience as a software engineer. This also acts as an ongoing project so enjoy the ride with me.
