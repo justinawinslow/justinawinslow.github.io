@@ -1,44 +1,28 @@
-- company: Upstatement
-  url: https://www.upstatement.com/
-  time: May 2018 - Present
-  position: Engineer
+- company: BetterCloud
+  url: https://www.bettercloud.com/
+  time: June 2022 - Present
+  position: Software Engineer
+  skills:
+    - Jekyll
+    - Handlebars
+    - SCSS
 
-- company: Scout
+- company: HII Technical Solutions
   url: https://web.northeastern.edu/scout/
-  time: Jan - June 2018
-  position: Studio Developer
+  time: July 2021 - June 2022
+  position: Software Engineer
+  skills:
 
-- company: Apple Music
-  url: https://www.apple.com/music/
-  time: July - Dec 2017
-  position: UI Engineer Co-op
+- company: Antech Systems, Inc 
+  url: https://www.antechsystemsinc.com/
+  time: Jan 2020 - July 2021
+  position: Front-end Developer
+  skills:
 
-- company: Scout
-  url: https://web.northeastern.edu/scout/
-  time: Jan - June 2017
-  position: Studio Developer
+- company: Newport News Shipbuilding
+  url: https://hii.com/what-we-do/divisions/newport-news-shipbuilding/
+  time: May 2017 - Jan 2020
+  position: Software Engineer
+  skills:
+    - used
 
-- company: Starry
-  url: https://starry.com/
-  time: July - Dec 2016
-  position: Software Engineer Co-op
-
-- company: Northeastern University
-  url: http://www.ccis.northeastern.edu/
-  time: Jan - May 2016
-  position: HCI Teaching Assistant
-
-- company: NU Women in Tech
-  url: http://nuwit.ccs.neu.edu/
-  time: Jan 2016 - May 2017
-  position: President & Web Chair
-
-- company: MullenLowe U.S.
-  url: https://us.mullenlowe.com/
-  time: July - Dec 2015
-  position: Creative Technologist Co-op
-
-- company: Northeastern University
-  url: http://www.ccis.northeastern.edu/
-  time: Mar - May 2015
-  position: HCI Research Assistant
