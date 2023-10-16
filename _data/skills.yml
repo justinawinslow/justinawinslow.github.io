@@ -1,0 +1,33 @@
+languages:
+  - JavaScript (ES6)
+  - TypeScript
+  - HTML
+  - CSS/Sass
+  - Python
+  - SQL
+  - R
+
+frameworks:
+  - Ember & Glimmer
+  - React
+  - Jekyll
+  - Node
+  - D3
+  - Wordpress
+  - Timber
+
+tools:
+  - Bash
+  - Git & Github
+  - Gulp & Grunt
+  - Chrome DevTools
+  - Postman
+  - MongoDB
+
+design:
+  - Sketch
+  - InDesign
+  - InVision
+  - Prototyping
+  - Wireframing
+  - User Testing

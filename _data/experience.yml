@@ -1,0 +1,28 @@
+- company: BetterCloud
+  url: https://www.bettercloud.com/
+  time: June 2022 - Present
+  position: Software Engineer
+  skills:
+    - Jekyll
+    - Handlebars
+    - SCSS
+
+- company: HII Technical Solutions
+  url: https://web.northeastern.edu/scout/
+  time: July 2021 - June 2022
+  position: Software Engineer
+  skills:
+
+- company: Antech Systems, Inc 
+  url: https://www.antechsystemsinc.com/
+  time: Jan 2020 - July 2021
+  position: Front-end Developer
+  skills:
+
+- company: Newport News Shipbuilding
+  url: https://hii.com/what-we-do/divisions/newport-news-shipbuilding/
+  time: May 2017 - Jan 2020
+  position: Software Engineer
+  skills:
+    - used
+
