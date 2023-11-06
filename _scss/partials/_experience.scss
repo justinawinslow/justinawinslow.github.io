@@ -13,6 +13,7 @@
     }
     &__company {
       font-weight: 700;
+      font-size: 1.5rem;
     }
     &__time {
       font-size: 0.9rem;
@@ -21,21 +22,26 @@
         font-size: 0.8rem;
       }
     }
-    &__used {
-      &__item {
-        display: inline-block;
-        margin: 3px 3px 3px 0;
-        font-family: 'Inconsolata', monospace;
-        font-size: 0.75rem;
-        font-weight: 700;
-        padding: 2px 7px;
-        border-radius: 3px;
-        color: $blue;
-        border: 1px solid $blue;
-        background: transparent;
-        &:first-of-type {
-          margin-left: 0;
-        }
+   
+  }
+  .project {
+    padding-bottom: 25px;
+    &__title {
+      font-weight: 700;
+    }
+    &__skill {
+      display: inline-block;
+      margin: 3px 3px 3px 0;
+      font-family: 'Inconsolata', monospace;
+      font-size: 0.75rem;
+      font-weight: 700;
+      padding: 2px 7px;
+      border-radius: 3px;
+      color: $blue;
+      border: 1px solid $blue;
+      background: transparent;
+      &:first-of-type {
+        margin-left: 0;
       }
     }
   }

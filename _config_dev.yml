@@ -5,8 +5,8 @@ description: ''
 url: https://justinawinslow.github.io/
 baseurl: ''
 email: justinwinslow55@gmail.com
-cover: https://justinawinslow.github.io/img/og.png
-logo: https://justinawinslow.github.io/img/emojis/technologist.png
+cover: https://justinawinslow.github.io/img/cover.png
+logo: https://justinawinslow.github.io/img/logo.png
 resume: https://justinawinslow.github.io/resume.pdf
 social:
   - title: email
