@@ -1,33 +1,26 @@
-languages:
-  - JavaScript (ES6)
-  - TypeScript
-  - HTML
-  - CSS/Sass
-  - Python
-  - SQL
-  - R
-
-frameworks:
-  - Ember & Glimmer
+frontend:
   - React
-  - Jekyll
-  - Node
-  - D3
-  - Wordpress
-  - Timber
+  - JavaScript/TypeScript
+  - HTML
+  - CSS/SCSS
+  - Jest/Jasmine
+  - AngularJs
 
-tools:
-  - Bash
-  - Git & Github
-  - Gulp & Grunt
-  - Chrome DevTools
-  - Postman
-  - MongoDB
+backend:
+  - Java
+  - Spring Boot
+  - Node.js
+  - Junit/Mockito
 
-design:
-  - Sketch
-  - InDesign
-  - InVision
-  - Prototyping
-  - Wireframing
-  - User Testing
+databases:
+  - SQL
+  - MySQL
+  - PostgresSQL
+  - Redis
+
+other:
+  - REST
+  - Git
+  - Microservices
+  - Cloud (GCP)
+  - Docker & Kubernetes

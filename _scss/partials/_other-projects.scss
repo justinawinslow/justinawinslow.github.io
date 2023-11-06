@@ -9,8 +9,7 @@
       font-size: 0.9rem;
       margin-bottom: 20px;
     }
-    &__used {
-      &__item {
+    &__skill {
         display: inline-block;
         margin: 3px 3px 3px 0;
         font-family: 'Inconsolata', monospace;
@@ -24,7 +23,6 @@
         &:first-of-type {
           margin-left: 0;
         }
-      }
     }
   }
 }

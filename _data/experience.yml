@@ -2,27 +2,96 @@
   url: https://www.bettercloud.com/
   time: June 2022 - Present
   position: Software Engineer
-  skills:
-    - Jekyll
-    - Handlebars
-    - SCSS
+  projects:
+    - title: API Gateway
+      description: An API Gateway that oversaw and optinize outbound API calls, improving the observability and coordination of communication across 70+ different provider APIs.
+      learned: This is what I learned
+      skills: 
+        - Kong
+        - GCP
+        - Docker & Kubernetes
+        - APIs
+        - Auth (JWT)
+    - title: CI/CD CLI Command
+      description: When a new OpenAPI Specification needed to be added to the API Gateway, automate the process of building the approprate file, 
+                    modify the file by adding custom plugins and removing generated plugins, deploy the file to the gateway while having a failsafe for a failed deployment, and run the test on newly generated endpoints.
+      learned: This is what I learned
+      skills: 
+        - JavaScript
+        - GitLab
+        - Bash
+        - CI/CD
+        - Jest
+    - title: Reprocess Kafka Messages
+      description: Led a team of engineers to create automated retry logic using Java and SpringBoot resulting in reduced on-call alerts and increased focus time for development.
+      learned: This is what I learned
+      skills: 
+        - Java
+        - Spring Boot
+        - Kafka
+        - Microservices
+        - MySql
+        - Gradle
 
 - company: HII Technical Solutions
-  url: https://web.northeastern.edu/scout/
+  url: https://hii.com/what-we-do/divisions/mission-technologies/
   time: July 2021 - June 2022
   position: Software Engineer
+  projects:
+    - title: Refactoring Codebase
+      description: 
+      learned:
+      skills: 
+        - Kong
+    - title: Startup Guide and Standards
+      description: 
+      learned:
+      skills: 
+        - Kong
   skills:
+    - Java
+    - Spring Boot
+    - Ext JS
+    - JavaScript
+    - PostgreSQL
 
 - company: Antech Systems, Inc 
   url: https://www.antechsystemsinc.com/
   time: Jan 2020 - July 2021
   position: Front-end Developer
+  projects:
+    - title: Dynamic Web Pages
+      description: 
+      learned:
+      skills: 
+        - Kong
+    - title: Unit Test
+      description: 
+      learned:
+      skills: 
+        - Kong
   skills:
+    - JavaScript/TypeScript
+    - AngularJs
+    - Node.js
+    - MySql
+    - REST APIs
+    - Jasmine
+    - Scrum
 
 - company: Newport News Shipbuilding
   url: https://hii.com/what-we-do/divisions/newport-news-shipbuilding/
   time: May 2017 - Jan 2020
   position: Software Engineer
+  projects:
+    - title: Simulation
+      description: 
+      learned:
+      skills: 
+        - Kong
   skills:
-    - used
-
+    - Java
+    - Microsoft Excel
+    - Swing
+    - Git
+    - Project Management

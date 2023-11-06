@@ -1,36 +1,39 @@
 <section class="section skills">
   <div class="section__title">Skills</div>
   <div class="section__content">
+    <p>
+      With over 6 years of experience, I have acquired skills in a number of domains, including
+    </p>
     <div class="skillz">
       <div class="skillz__category">
-        <div class="skillz__category__label">Languages</div>
+        <div class="skillz__category__label">Frontend Development</div>
         <ul>
-          {% for language in site.data.skills.languages %}
-          <li class="skillz__category__item">{{language}}</li>
+          {% for fe in site.data.skills.frontend %}
+          <li class="skillz__category__item">{{fe}}</li>
           {% endfor %}
         </ul>
       </div>
       <div class="skillz__category">
-        <div class="skillz__category__label">Frameworks</div>
+        <div class="skillz__category__label">Backend Development</div>
         <ul>
-          {% for framework in site.data.skills.frameworks %}
-          <li class="skillz__category__item">{{framework}}</li>
+          {% for be in site.data.skills.backend %}
+          <li class="skillz__category__item">{{be}}</li>
           {% endfor %}
         </ul>
       </div>
       <div class="skillz__category">
-        <div class="skillz__category__label">Tools</div>
+        <div class="skillz__category__label">Database</div>
         <ul>
-          {% for tool in site.data.skills.tools %}
-          <li class="skillz__category__item">{{tool}}</li>
+          {% for db in site.data.skills.databases %}
+          <li class="skillz__category__item">{{db}}</li>
           {% endfor %}
         </ul>
       </div>
       <div class="skillz__category">
-        <div class="skillz__category__label">Design</div>
+        <div class="skillz__category__label">Other</div>
         <ul>
-          {% for thing in site.data.skills.design %}
-          <li class="skillz__category__item">{{thing}}</li>
+          {% for other in site.data.skills.other %}
+          <li class="skillz__category__item">{{other}}</li>
           {% endfor %}
         </ul>
       </div>
