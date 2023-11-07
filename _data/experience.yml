@@ -5,7 +5,7 @@
   projects:
     - title: API Gateway
       description: An API Gateway that oversaw and optinize outbound API calls, improving the observability and coordination of communication across 70+ different provider APIs.
-      learned: This is what I learned
+      learned: I got to experience building up requirements, working through a POC (Proof of Concept) with three potential vendors, implementing and deploying the solution to our cloud platform, and successfully seeing traffic flowing in and out of the gateway in production. I learned a lot of new technologies, including Kong Gateway, Grafana and Prometheus, authentication (JWT and HMAC), OpenAPI Spec files, and much more.
       skills: 
         - Kong
         - GCP
@@ -13,18 +13,18 @@
         - APIs
         - Auth (JWT)
     - title: CI/CD CLI Command
-      description: When a new OpenAPI Specification needed to be added to the API Gateway, automate the process of building the approprate file, 
-                    modify the file by adding custom plugins and removing generated plugins, deploy the file to the gateway while having a failsafe for a failed deployment, and run the test on newly generated endpoints.
-      learned: This is what I learned
+      description: When a new OpenAPI Specification needed to be implemented in the API Gateway, I automated the process, which involved creating the appropriate file, customizing it by adding or removing plugins, deploying the file to the gateway with a failsafe for potential deployment failures, and running tests on the newly generated endpoints. This process was executed through a CLI command in GitLab jobs.
+      learned: This project I was able to lead and build out a CLI from scratch using pure JavaScript. I got learn how to split up work and determine what needed to be done and what order these needed to be done. I particapated in all code reviews to ensure over 95% code coverage in unit test as well code readability. I also got to learn how to build gitlab specific pipelines and how jobs run in the CI/CD environment. 
       skills: 
         - JavaScript
         - GitLab
         - Bash
         - CI/CD
         - Jest
+        - Ownership
     - title: Reprocess Kafka Messages
-      description: Led a team of engineers to create automated retry logic using Java and SpringBoot resulting in reduced on-call alerts and increased focus time for development.
-      learned: This is what I learned
+      description: Led a team of engineers to create automated retry logic using Java and kafka resulting in reduced on-call alerts and increased focus time for development. Also eliminated  up to 68 million unused Kafka topic messages which reduced overhead and improved performance.
+      learned: This initiative  allowed me to work directly with Kafka and learn about how to setup kafka producers and consumers, how to handle records, and to work with error handling to allow the application to run smoother.
       skills: 
         - Java
         - Spring Boot
@@ -39,17 +39,18 @@
   position: Software Engineer
   projects:
     - title: Refactoring Codebase
-      description: When an action would happen on a mouse click, the resonse time from button click to results showing was taking over 60 seconds to load. So refactored some legacy code to reduce the time the code was executing from over a minute to 
-      learned: how to optimize querying a Database by reducing querying the db as well as querying what is needed to reduce having to run loops and streams, the effiectiveness of a hashmap, 
+      description: When an event was triggered by a mouse click, the response time from the button click to displaying results took well over 60 seconds to load. I refactored some legacy code to reduce the execution time from over a minute to under a second, resulting in a much happier customer response.
+      learned: This project allowed me to learn how to optimize database queries and set up schemas for database changes. It also introduced me to Spring Boot and the powerful capabilities it offers for service development.
       skills: 
         - Java
         - Spring Boot
         - Ext JS
         - JavaScript
         - PostgreSQL
+        - APIs
     - title: Startup Guide and Coding Standards
-      description: When onboarding a new engineer, there was a lot of setup that happened over mouth, Created a new engineer guide with steps on how to get the environment set up as well as set up coding standard and test coverage rules in sonarqube on all new incoming MRs effectively increasing code coverage by a small margin on every code change.
-      learned: 
+      description: When onboarding new engineers, there was a lot of manual setup involved. I created a new engineer guide with steps for setting up the development environment and establishing coding standards and test coverage rules in SonarQube for all new merge requests (MRs). This effectively increased code coverage by a small margin with each code change.
+      learned: This initiative enabled me to learn about documentation and effective communication. I observed how the documentation streamlined the onboarding process for new engineers and reduced the time spent on code reviews due to the clear expectations it provided.
       skills: 
         - Documentation
         - Mentoring
@@ -62,7 +63,7 @@
   projects:
     - title: Dynamic Web Pages
       description: Building new dynamic web pages in collaboration with a backend engineer. I aimed to enhance the user experience and achieve webpage objectives by creating site structures, improving navigation, optimizing page performance, and integrating graphics.
-      learned:
+      learned: This was my first experience working with front-end specific technologies. I learned how to work with Angular and how to make API calls and consume data from the client side. Additionally, I gained knowledge on handling data to ensure that we displayed only received results, avoiding client-side data manipulation.
       skills: 
         - AngularJs
         - TypeScript
