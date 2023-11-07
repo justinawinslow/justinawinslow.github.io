@@ -14,7 +14,7 @@
     font-weight: 700;
   }
   &__links {
-    @include weird-medium {
+    @include tablet {
       display: flex;
       justify-content: center;
     }
@@ -40,7 +40,7 @@
         opacity: 0;
         transition: height 0.3s, opacity 0.3s, transform 0.3s;
         transform: translateY(-5px);
-        @include little-desktop {
+        @include tablet-portrait {
           display: none;
         }
       }
@@ -55,7 +55,7 @@
         font-size: 0.9rem;
         display: inline;
         letter-spacing: 1px;
-        @include little-desktop {
+        @include tablet-portrait {
           display: none;
         }
       }
@@ -63,7 +63,7 @@
     img {
       display: none;
       width: 40px;
-      @include little-desktop {
+      @include tablet-portrait {
         display: inline-block;
       }
     }

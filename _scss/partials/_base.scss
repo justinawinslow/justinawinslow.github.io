@@ -24,7 +24,6 @@ body {
     .footer{
       background-color: black;
     }
-    background-color: black;
     background-color: $night;
     color: $slate;
     .footer__links,
@@ -118,7 +117,7 @@ strong {
     @include desktop {
       margin-right: 50px;
     }
-    @include little-desktop {
+    @include tablet-portrait {
       width: 150px;
     }
     @include tablet {
@@ -201,6 +200,22 @@ strong {
   margin-top: 15px;
   &:after {
     display: none;
+  }
+}
+
+.project__skill{
+  display: inline-block;
+  margin: 3px 3px 3px 0;
+  font-family: 'Inconsolata', monospace;
+  font-size: 0.75rem;
+  font-weight: 700;
+  padding: 2px 7px;
+  border-radius: 3px;
+  color: $blue;
+  border: 1px solid $blue;
+  background: transparent;
+  &:first-of-type {
+    margin-left: 0;
   }
 }
 

@@ -6,10 +6,7 @@
   flex-direction: column;
   justify-content: space-around;
   margin: 0 auto;
-  @include weird-medium {
-    padding: 120px 70px;
-  }
-  @include phablet {
+  @include tablet {
     padding: 120px 50px;
   }
   @include mobile {
@@ -28,7 +25,7 @@
   }
   &__section {
     padding-right: 20px;
-    @include little-desktop {
+    @include tablet-portrait {
           padding: 0;
     }
     .profilePicture {
@@ -42,7 +39,7 @@
       @include desktop {
         margin-top: 0px;
       }
-      @include little-desktop {
+      @include tablet-portrait {
         float: none;
         margin: 10px 0 40px 0;
         width: 300px;
@@ -69,21 +66,15 @@
       @include tablet {
         font-size: 2rem;
       }
-      @include phablet {
-        font-size: 1.75rem;
-      }
-      @include small-mobile {
+      @include mobile {
         font-size: 1.5rem;
-      }
-      @include tiny-mobile {
-        font-size: 1rem;
       }
     }
   }
   .contact {
     font-size: 1.25rem;
     font-weight: 400;
-    @include phablet {
+    @include tablet {
       font-size: 1rem;
     }
     .highlight-link {

@@ -39,21 +39,21 @@
   position: Software Engineer
   projects:
     - title: Refactoring Codebase
-      description: 
-      learned:
+      description: When an action would happen on a mouse click, the resonse time from button click to results showing was taking over 60 seconds to load. So refactored some legacy code to reduce the time the code was executing from over a minute to 
+      learned: how to optimize querying a Database by reducing querying the db as well as querying what is needed to reduce having to run loops and streams, the effiectiveness of a hashmap, 
       skills: 
-        - Kong
-    - title: Startup Guide and Standards
-      description: 
-      learned:
+        - Java
+        - Spring Boot
+        - Ext JS
+        - JavaScript
+        - PostgreSQL
+    - title: Startup Guide and Coding Standards
+      description: When onboarding a new engineer, there was a lot of setup that happened over mouth, Created a new engineer guide with steps on how to get the environment set up as well as set up coding standard and test coverage rules in sonarqube on all new incoming MRs effectively increasing code coverage by a small margin on every code change.
+      learned: 
       skills: 
-        - Kong
-  skills:
-    - Java
-    - Spring Boot
-    - Ext JS
-    - JavaScript
-    - PostgreSQL
+        - Documentation
+        - Mentoring
+        - Code Reviews
 
 - company: Antech Systems, Inc 
   url: https://www.antechsystemsinc.com/
@@ -61,37 +61,35 @@
   position: Front-end Developer
   projects:
     - title: Dynamic Web Pages
-      description: 
+      description: Building new dynamic web pages in collaboration with a backend engineer. I aimed to enhance the user experience and achieve webpage objectives by creating site structures, improving navigation, optimizing page performance, and integrating graphics.
       learned:
       skills: 
-        - Kong
-    - title: Unit Test
-      description: 
-      learned:
+        - AngularJs
+        - TypeScript
+        - Node
+        - REST APIs
+        - Scrum
+    - title: Implmenting Unit Test
+      description: Most of the project had no unit tests and lacked code coverage. I implemented over 500 unit tests to enhance test coverage and uncover previously unnoticed bugs.
+      learned: I learned about the importance of implementing good unit testing when working with new software. I noticed numerous unhandled edge cases, and now I always keep that in mind when developing new software and writing tests.
       skills: 
-        - Kong
-  skills:
-    - JavaScript/TypeScript
-    - AngularJs
-    - Node.js
-    - MySql
-    - REST APIs
-    - Jasmine
-    - Scrum
+        - Jasmine
+        - TypeScript
+        - AngularJs
+        - Unit Testing
 
 - company: Newport News Shipbuilding
   url: https://hii.com/what-we-do/divisions/newport-news-shipbuilding/
   time: May 2017 - Jan 2020
   position: Software Engineer
   projects:
-    - title: Simulation
-      description: 
-      learned:
+    - title: Refueling Missiles Simulation
+      description: A Java-based application simulates the process of receiving missiles, refueling, disposing of chemicals, and shipping out. The tool was used to assist my customer in planning scheduled deliveries, optimizing the current staffing on a shift schedule, and determining if multiple steps can be performed to expedite production.
+      learned: This project allowed me to learn how to manage a project and plan effectively for the successful deployment and delivery of major releases. As the sole developer, analyst, and project manager, I was able to communicate directly with the customer, building a trusting relationship of gathering requirements, verifying expected output, and providing realistic updates.
       skills: 
-        - Kong
-  skills:
-    - Java
-    - Microsoft Excel
-    - Swing
-    - Git
-    - Project Management
+        - Java
+        - Microsoft Excel
+        - Swing
+        - Git
+        - Project Management
+        - Agile
