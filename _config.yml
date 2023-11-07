@@ -10,13 +10,16 @@ logo: https://justinawinslow.github.io/img/logo.png
 resume: https://justinawinslow.github.io/resume.pdf
 social:
   - title: email
-    url: justinwinslow55@gmail.com
+    url: mailto:justinwinslow55@gmail.com
   - title: facebook
     url: https://www.facebook.com/justin.winslow.963/
   - title: github
     url: https://github.com/justinawinslow
   - title: linkedin
     url: https://www.linkedin.com/in/justin-a-winslow/
+
+# Analytics
+google_analytics: G-L8R86TDEBT
 
 # Build settings
 markdown: kramdown

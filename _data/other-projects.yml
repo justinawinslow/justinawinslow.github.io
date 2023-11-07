@@ -11,3 +11,16 @@
     - Strategic Thinking
     - Business Communication
     - Goal Setting
+
+- name: Star Wars Api Challenge
+  url: https://github.com/justinawinslow/starwars-api
+  code: https://github.com/justinawinslow/starwars-api
+  description: A coding challenge for an interview. I had to build a simple angular 6 spa that is capable of navigating from one component to another and back. Each component
+              will request data from the public Star Wars API.
+  skills:
+    - AngularJs
+    - HTML
+    - CSS
+    - TypeScript
+    - npm
+    - API

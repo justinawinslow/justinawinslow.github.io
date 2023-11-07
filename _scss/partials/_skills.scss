@@ -2,11 +2,11 @@
   .skillz {
     display: flex;
     justify-content: space-between;
-    @include weird-medium {
+    @include tablet {
       flex-wrap: wrap;
     }
     &__category {
-      @include weird-medium {
+      @include tablet {
         width: 47%;
         margin-right: 5px;
         margin-bottom: 25px;
