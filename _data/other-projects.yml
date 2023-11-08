@@ -1,6 +1,5 @@
 - name: Cozy Corner Spot
   url: https://cozycornerspot.com/
-  code: 
   description: An eCommerce website built for my wife to sell her own clothes for her boutique. Built and fully maintained by me with design assistance from my wife.
   skills:
     - Wordpress
@@ -14,9 +13,7 @@
 
 - name: Star Wars Api Challenge
   url: https://github.com/justinawinslow/starwars-api
-  code: https://github.com/justinawinslow/starwars-api
-  description: A coding challenge for an interview. I had to build a simple angular 6 spa that is capable of navigating from one component to another and back. Each component
-              will request data from the public Star Wars API.
+  description: A coding challenge for an interview. I had to build a simple angular 6 spa that is capable of navigating from one component to another and back. Each component will request data from the public Star Wars API.
   skills:
     - AngularJs
     - HTML

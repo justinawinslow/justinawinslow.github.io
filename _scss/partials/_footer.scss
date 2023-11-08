@@ -4,6 +4,7 @@
   flex-direction: column;
   row-gap: 1.5rem;
   align-items: center;
+  background-color: $dark-grey;
   @include desktop {
     padding: 50px;
   }
@@ -11,6 +12,7 @@
     padding: 50px 30px;
   }
   &__copyright {
+    color: $off-white;
     font-weight: 700;
   }
   &__links {
