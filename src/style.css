@@ -1,0 +1,124 @@
+:root {
+  --night: #171c28;
+  --black: #36363c;
+  --dark-grey: #444452;
+  --blue: #007bff;
+  --slate: #afafbf;
+  --off-white: #e7e7e7;
+  --white: #ffffff;
+  --green: #bae67e;
+  --neon-green: #39FF14;
+
+  --font-stack: 'Source Sans Pro', system, system-ui, -apple-system,
+    BlinkMacSystemFont, Roboto, Helvetica, Arial, sans-serif;
+  --Apercu: 'Apercu', --font-stack;
+
+  --desktop-width: 1280px;
+  --tablet-portrait: 1024px;
+  --tablet-width: 768px;
+  --mobile-width: 480px;
+}
+
+
+
+.intro {
+    width: 100%;
+    padding: 70px 100px;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    margin: 0 auto;
+    background-color: var(--dark-grey);
+    color: var(--off-white);
+    strong {
+      color: var(--off-white) !important;
+    }
+    /* @include tablet {
+      padding: 120px 50px;
+    }
+    @include mobile {
+      padding: 70px 50px;
+    } */
+  
+    .heading {
+      font-size: 3em;
+    }
+    .divider {
+        display: block;
+        margin: 30px 0px;
+        width: 250px;
+        height: 2px;
+        background-color: var(--neon-green);
+    }
+    .section {
+      padding-right: 20px;
+      /* @include tablet-portrait {
+            padding: 0;
+      } */
+      .profilePicture {
+        display: block;
+        width: 35%;
+        height: auto;
+        border-radius: 25%;
+        margin-top: -100px;
+        float: right;
+        max-width: 450px;
+        /* @include desktop {
+          margin-top: 0px;
+        }
+        @include tablet-portrait {
+          margin-left: auto;
+          margin-right: auto;
+          float: none;
+          width: 300px;
+        }
+        @include mobile {
+          width: 250px;
+        } */
+      }
+  
+      .text {
+        font-weight: 300;
+        .name {
+          font-weight: 700;
+        }
+        width: 60%;
+        display: inline-block;
+        vertical-align: top;
+        font-size: 2rem;
+        /* @include desktop {
+          font-size: 2.25rem;
+        }
+        @include tablet-portrait {
+          width: 100%;
+          font-size: 1.7rem;
+        }
+        @include mobile {
+          font-size: 1.5rem;
+        } */
+      }
+    }
+    .contact {
+      font-size: 1.25rem;
+      font-weight: 400;
+      /* @include tablet {
+        font-size: 1rem;
+      } */
+      .link {
+        /* @include transition; */
+        font-weight: 400;
+        text-decoration: none;
+        display: inline-block;
+        padding: 2px 3px;
+        text-decoration: none;
+        
+        box-shadow: inset 0 -3px 0 var(--neon-green);
+        &:hover {
+          box-shadow: inset 0 -33px 0 0 var(--neon-green);
+          color: var(--black);
+        }
+      }
+    }
+  }
+  
