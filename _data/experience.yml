@@ -1,6 +1,41 @@
+- company: Agile Defense
+  url: https://agiledefense.com/about/
+  time: Jan 2024 - Present
+  position: Team Lead
+  projects:
+    - title: API Gateway
+      description: An API Gateway that oversaw and optinize outbound API calls, improving the observability and coordination of communication across 70+ different provider APIs.
+      learned: I got to experience building up requirements, working through a POC (Proof of Concept) with three potential vendors, implementing and deploying the solution to our cloud platform, and successfully seeing traffic flowing in and out of the gateway in production. I learned a lot of new technologies, including Kong Gateway, Grafana and Prometheus, authentication (JWT and HMAC), OpenAPI Spec files, and much more.
+      skills: 
+        - Kong
+        - GCP
+        - Docker & Kubernetes
+        - APIs
+        - Auth (JWT)
+    - title: CI/CD CLI Command
+      description: When a new OpenAPI Specification needed to be implemented in the API Gateway, I automated the process, which involved creating the appropriate file, customizing it by adding or removing plugins, deploying the file to the gateway with a failsafe for potential deployment failures, and running tests on the newly generated endpoints. This process was executed through a CLI command in GitLab jobs.
+      learned: This project I was able to lead and build out a CLI from scratch using pure JavaScript. I got learn how to split up work and determine what needed to be done and what order these needed to be done. I particapated in all code reviews to ensure over 95% code coverage in unit test as well code readability. I also got to learn how to build gitlab specific pipelines and how jobs run in the CI/CD environment. 
+      skills: 
+        - JavaScript
+        - GitLab
+        - Bash
+        - CI/CD
+        - Jest
+        - Ownership
+    - title: Reprocess Kafka Messages
+      description: Led a team of engineers to create automated retry logic using Java and kafka resulting in reduced on-call alerts and increased focus time for development. Also eliminated  up to 68 million unused Kafka topic messages which reduced overhead and improved performance.
+      learned: This initiative  allowed me to work directly with Kafka and learn about how to setup kafka producers and consumers, how to handle records, and to work with error handling to allow the application to run smoother.
+      skills: 
+        - Java
+        - Spring Boot
+        - Kafka
+        - Microservices
+        - MySql
+        - Gradle
+
 - company: BetterCloud
   url: https://www.bettercloud.com/
-  time: June 2022 - Present
+  time: June 2022 - Jan 2024
   position: Software Engineer
   projects:
     - title: API Gateway
