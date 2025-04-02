@@ -4,6 +4,14 @@
     <p>
       With over 8 years of experience, I have acquired skills in a number of domains, including
     </p>
+    <div class="skillz__category">
+      <div class="skillz__category__label">Leadership & Management</div>
+      <ul>
+        {% for leader in site.data.skills.leadership %}
+        <li class="skillz__category__item">{{leader}}</li>
+        {% endfor %}
+      </ul>
+    </div>
     <div class="skillz">
       <div class="skillz__category">
         <div class="skillz__category__label">Frontend Development</div>
